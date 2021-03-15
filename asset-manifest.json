@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/skovajsa/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/skovajsa/static/js/main.7ba2072b.chunk.js",
+    "main.js.map": "/skovajsa/static/js/main.7ba2072b.chunk.js.map",
+    "runtime-main.js": "/skovajsa/static/js/runtime-main.d0709ae8.js",
+    "runtime-main.js.map": "/skovajsa/static/js/runtime-main.d0709ae8.js.map",
+    "static/js/2.150e6d65.chunk.js": "/skovajsa/static/js/2.150e6d65.chunk.js",
+    "static/js/2.150e6d65.chunk.js.map": "/skovajsa/static/js/2.150e6d65.chunk.js.map",
+    "static/js/3.43572bfc.chunk.js": "/skovajsa/static/js/3.43572bfc.chunk.js",
+    "static/js/3.43572bfc.chunk.js.map": "/skovajsa/static/js/3.43572bfc.chunk.js.map",
+    "index.html": "/skovajsa/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/skovajsa/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.150e6d65.chunk.js.LICENSE.txt": "/skovajsa/static/js/2.150e6d65.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/skovajsa/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0709ae8.js",
+    "static/js/2.150e6d65.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.7ba2072b.chunk.js"
+  ]
+}
