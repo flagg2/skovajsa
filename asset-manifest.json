@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/skovajsa/static/css/main.8443c900.chunk.css",
-    "main.js": "/skovajsa/static/js/main.cf4444ef.chunk.js",
-    "main.js.map": "/skovajsa/static/js/main.cf4444ef.chunk.js.map",
+    "main.css": "/skovajsa/static/css/main.9e718dbf.chunk.css",
+    "main.js": "/skovajsa/static/js/main.5b4a545b.chunk.js",
+    "main.js.map": "/skovajsa/static/js/main.5b4a545b.chunk.js.map",
     "runtime-main.js": "/skovajsa/static/js/runtime-main.73ae316d.js",
     "runtime-main.js.map": "/skovajsa/static/js/runtime-main.73ae316d.js.map",
     "static/js/2.5bb383bd.chunk.js": "/skovajsa/static/js/2.5bb383bd.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.2c057ed5.chunk.js": "/skovajsa/static/js/3.2c057ed5.chunk.js",
     "static/js/3.2c057ed5.chunk.js.map": "/skovajsa/static/js/3.2c057ed5.chunk.js.map",
     "index.html": "/skovajsa/index.html",
-    "static/css/main.8443c900.chunk.css.map": "/skovajsa/static/css/main.8443c900.chunk.css.map",
+    "static/css/main.9e718dbf.chunk.css.map": "/skovajsa/static/css/main.9e718dbf.chunk.css.map",
     "static/js/2.5bb383bd.chunk.js.LICENSE.txt": "/skovajsa/static/js/2.5bb383bd.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/skovajsa/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.73ae316d.js",
     "static/js/2.5bb383bd.chunk.js",
-    "static/css/main.8443c900.chunk.css",
-    "static/js/main.cf4444ef.chunk.js"
+    "static/css/main.9e718dbf.chunk.css",
+    "static/js/main.5b4a545b.chunk.js"
   ]
 }
