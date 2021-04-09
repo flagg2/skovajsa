@@ -4,7 +4,7 @@ import React from 'react'
 import axios from 'axios'
 import spinner from './img/spinner.gif'
 
-const apiUrl = 'http://localhost:8080/api'
+const apiUrl = 'https://marhulky.sk:8081/api'
 
 const products = [
   {
