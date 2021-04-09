@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/skovajsa/static/css/main.3394c161.chunk.css",
-    "main.js": "/skovajsa/static/js/main.ff7bb5bc.chunk.js",
-    "main.js.map": "/skovajsa/static/js/main.ff7bb5bc.chunk.js.map",
-    "runtime-main.js": "/skovajsa/static/js/runtime-main.73ae316d.js",
-    "runtime-main.js.map": "/skovajsa/static/js/runtime-main.73ae316d.js.map",
-    "static/js/2.180f0ca7.chunk.js": "/skovajsa/static/js/2.180f0ca7.chunk.js",
-    "static/js/2.180f0ca7.chunk.js.map": "/skovajsa/static/js/2.180f0ca7.chunk.js.map",
-    "static/js/3.2c057ed5.chunk.js": "/skovajsa/static/js/3.2c057ed5.chunk.js",
-    "static/js/3.2c057ed5.chunk.js.map": "/skovajsa/static/js/3.2c057ed5.chunk.js.map",
+    "main.css": "/skovajsa/static/css/main.9428a4f4.chunk.css",
+    "main.js": "/skovajsa/static/js/main.6574de6e.chunk.js",
+    "main.js.map": "/skovajsa/static/js/main.6574de6e.chunk.js.map",
+    "runtime-main.js": "/skovajsa/static/js/runtime-main.0f2e69b6.js",
+    "runtime-main.js.map": "/skovajsa/static/js/runtime-main.0f2e69b6.js.map",
+    "static/js/2.9cd57b85.chunk.js": "/skovajsa/static/js/2.9cd57b85.chunk.js",
+    "static/js/2.9cd57b85.chunk.js.map": "/skovajsa/static/js/2.9cd57b85.chunk.js.map",
+    "static/js/3.433251de.chunk.js": "/skovajsa/static/js/3.433251de.chunk.js",
+    "static/js/3.433251de.chunk.js.map": "/skovajsa/static/js/3.433251de.chunk.js.map",
     "index.html": "/skovajsa/index.html",
-    "static/css/main.3394c161.chunk.css.map": "/skovajsa/static/css/main.3394c161.chunk.css.map",
-    "static/js/2.180f0ca7.chunk.js.LICENSE.txt": "/skovajsa/static/js/2.180f0ca7.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/skovajsa/static/media/logo.6ce24c58.svg"
+    "static/css/main.9428a4f4.chunk.css.map": "/skovajsa/static/css/main.9428a4f4.chunk.css.map",
+    "static/js/2.9cd57b85.chunk.js.LICENSE.txt": "/skovajsa/static/js/2.9cd57b85.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/skovajsa/static/media/logo.6ce24c58.svg",
+    "static/media/spinner.f986ff88.gif": "/skovajsa/static/media/spinner.f986ff88.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.73ae316d.js",
-    "static/js/2.180f0ca7.chunk.js",
-    "static/css/main.3394c161.chunk.css",
-    "static/js/main.ff7bb5bc.chunk.js"
+    "static/js/runtime-main.0f2e69b6.js",
+    "static/js/2.9cd57b85.chunk.js",
+    "static/css/main.9428a4f4.chunk.css",
+    "static/js/main.6574de6e.chunk.js"
   ]
 }
