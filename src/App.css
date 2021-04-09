@@ -1,38 +1,252 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2::before{
+  content: '';
+  background-color: #ffc444;
+  display: block;
+  margin-top: 10px;
+  position: relative;
+  top: -10px;
+  left: 0;
+  width: 30px;
+  height: 4px;
+}
+
+h2, h3, h4{
+  font-weight: 400 !important;
+  font-family: Unica One,sans-serif !important;
+}
+
+body{
+  padding: 10px;
+  font-family: Roboto,sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+div{
+  color: black;
+}
+
+.order-form{
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.order-heading{
+  margin-bottom: 15px;
+}
+
+.order-header{
+  display: flex;
+  width: 100%;
+}
+
+.order-header > .price{
+  margin-right: 35px;
+}
+
+.order-header > .ks{
+  width: 30px;
+}
+
+.product{
+  margin-right: auto;
+}
+
+.product-cont{
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.product-cont > .product-img{
+  object-fit: contain;
+  display: block;
+  max-width: 40px;
+  margin-right: 20px;
+}
+
+.product-cont > .price{
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.product-cont > .add-to-cart{
+  font-size: 30px;
+  margin-left: -20px;
+  margin-top: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ion-icon{
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-cont > .set-quant{
+  width: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.product-cont > .arrows{
+width: 10px;
+}
+
+input,select{
+  font-size: 15px;
+  padding: 5px;
+}
+
+.summary-heading{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.price-summary{
+  margin-top: 20px;
+}
+.price-summary > .price-block{
+display: flex;
+}
+.price-summary > .price-block > .price{
+  margin-left: auto;
+}
+
+.filters{
+  margin: 10px 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.loader{
+  padding: 15px;
+}
+
+.orderButton{
+  margin: auto;
+  border-radius: 5px;
+  width: fit-content;
+  cursor: pointer;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  transition: .3s all;
+}
+
+.orderButton:hover{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.filters > div {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  margin-right: 10px;
+  transition: .3s all;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.filters > div:hover{
+  background-color: black;
+  color: white;
+}
+
+.contactForm > h4{
+  margin-top: 20px;
+}
+
+.contactInfo{
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width:900px){
+  .contactInfo{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .contactInput{
+    width: 100% !important;
+    margin-bottom: 10px;
   }
+  .price.top{
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width:400px){
+  .filters > div{
+    font-size: 14px;
+    padding: 5px;
+    margin-right: 5px;
+  }
+}
+.contactInput{
+  width: 0;
+  display: flex;
+  margin-right: 10px;
+  flex-direction: column;
+  flex: 1;
+}
+
+.gdpr{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.gdpr > input{
+  margin-left: 10px;
+}
+
+.name-and-info{
+  max-width: 50%;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.loader{
+  z-index: 11;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.loader > img{
+  object-fit: contain;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+}
+
+.overlay{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.5);
 }
