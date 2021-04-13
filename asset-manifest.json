@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skovajsa/static/css/main.9428a4f4.chunk.css",
-    "main.js": "/skovajsa/static/js/main.6574de6e.chunk.js",
-    "main.js.map": "/skovajsa/static/js/main.6574de6e.chunk.js.map",
+    "main.js": "/skovajsa/static/js/main.47fb81e6.chunk.js",
+    "main.js.map": "/skovajsa/static/js/main.47fb81e6.chunk.js.map",
     "runtime-main.js": "/skovajsa/static/js/runtime-main.0f2e69b6.js",
     "runtime-main.js.map": "/skovajsa/static/js/runtime-main.0f2e69b6.js.map",
     "static/js/2.9cd57b85.chunk.js": "/skovajsa/static/js/2.9cd57b85.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.0f2e69b6.js",
     "static/js/2.9cd57b85.chunk.js",
     "static/css/main.9428a4f4.chunk.css",
-    "static/js/main.6574de6e.chunk.js"
+    "static/js/main.47fb81e6.chunk.js"
   ]
 }
